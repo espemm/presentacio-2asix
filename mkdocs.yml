@@ -1,5 +1,5 @@
 site_name: Administració de Sistemes Informàtics en Xarxa. 2on.
-site_url: https://espemm.github.io/presentacio-2asix/
+site_url: https://espemm.github.io/presentacio-2asix.git
 
 nav:
   - "Inici": 'index.md'
