@@ -1,0 +1,48 @@
+site_name: Administració de Sistemes Informàtics en Xarxa. 2on.
+site_url: https://espemm.github.io/presentacio-2asix/
+
+nav:
+  - "Inici": 'index.md'
+  - "1. Cicle": '0.Cicle.md'
+  - "2. Horari 2n": '1.Presentacio.md'
+  - "3. Correus, eines corporatives i comunicació": '2.Eines.md'
+  - "4. Calendari Escolar": '3.Calendari.md'
+  - "5. Assistència": '4.Assistencia.md'
+  - "6. Convocatòries": '5.Convocatories.md'
+  - "7. Formació en Empresa": '6.FEE.md'
+  - "8. Treball intermodular": '7.Projecte.md'
+  
+theme:
+  name: 'material'
+  logo: 'img/logo.svg'
+  favicon: 'img/logo.svg'
+  features:
+    - content.code.copy # PEr copiar codi
+  palette:
+    accent: deep purple
+    primary: amber
+
+
+extra_css:
+  - css/material-just.css
+
+plugins:
+  - search
+  - glightbox   # Per vore les imatges en gran quan fas clic en elles.
+  # - pandoc
+
+markdown_extensions:
+  - attr_list           # Permet incorporar atributs a les imatges { width=100px }
+  - md_in_html # Junt a attr_list per afegir peus a les imatges
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      baselevel: 2
+      toc_depth: 3
